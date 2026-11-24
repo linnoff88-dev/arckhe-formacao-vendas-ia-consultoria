@@ -1,7 +1,7 @@
 # Playbook de Consultoria em IA — plano do curso
 
 Curso interativo em PT-BR para quem quer vender consultoria de IA: 4 trilhas, 8 módulos, 62 tópicos.
-Formato INEMA.CLUB (dark premium, camada de aprendizagem com progresso, dúvida, anotação e jornada).
+Formato ARCKHÉ AI (dark premium, camada de aprendizagem com progresso, dúvida, anotação e jornada).
 
 - **Cor principal:** blue
 - **Identificador do curso:** `vendas-ia-consultoria`

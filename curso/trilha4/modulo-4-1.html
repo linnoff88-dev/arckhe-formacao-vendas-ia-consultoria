@@ -4,35 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Módulo 4.1 — Clientes que vêm até você e workshops em minutos | Playbook de Consultoria em IA</title>
-  <meta name="inema-course" content="vendas-ia-consultoria">
+  <meta name="ARCKHÉ-course" content="vendas-ia-consultoria">
 
   <!-- ANTI-FOUC -->
   <script>
   (function () {
     try {
       var html = document.documentElement;
-      var DEF = { theme: 'inema-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'blue' };
+      var DEF = { theme: 'ARCKHÉ-dark', font: 'inter', fontScale: 100, lineWidth: 68, leading: 1.7, accent: 'blue' };
       function clone(o) { var r = {}; for (var x in o) r[x] = o[x]; return r; }
       var p = clone(DEF);
       try {
-        var raw = localStorage.getItem('inema.prefs');
+        var raw = localStorage.getItem('ARCKHÉ.prefs');
         if (raw) {
           var parsed = JSON.parse(raw);
           if (parsed && typeof parsed === 'object') { for (var k in DEF) if (parsed[k] != null) p[k] = parsed[k]; }
         } else {
           var legacy = localStorage.getItem('theme');
           if (legacy === 'light') p.theme = 'claro';
-          else if (legacy === 'dark') p.theme = 'inema-dark';
+          else if (legacy === 'dark') p.theme = 'ARCKHÉ-dark';
         }
       } catch (e) { p = clone(DEF); }
       var THEMES = {
-        'inema-dark': { dark: true, attr: null, cs: 'dark' },
+        'ARCKHÉ-dark': { dark: true, attr: null, cs: 'dark' },
         'claro': { dark: false, attr: null, cs: 'light' },
         'sepia': { dark: false, attr: 'sepia', cs: 'light' },
         'foco': { dark: null, attr: 'foco', cs: null },
         'contraste': { dark: true, attr: 'contraste', cs: 'dark' }
       };
-      var t = THEMES[p.theme] || THEMES['inema-dark'];
+      var t = THEMES[p.theme] || THEMES['ARCKHÉ-dark'];
       if (t.dark === true) html.classList.add('dark');
       else if (t.dark === false) html.classList.remove('dark');
       if (t.attr) html.setAttribute('data-theme', t.attr); else html.removeAttribute('data-theme');
@@ -41,7 +41,7 @@
       html.setAttribute('data-accent', p.accent || 'blue');
       var s = html.style;
       var scale = (+p.fontScale || 100);
-      s.setProperty('--inema-font-scale', (scale / 100).toString());
+      s.setProperty('--ARCKHÉ-font-scale', (scale / 100).toString());
       s.setProperty('font-size', scale + '%');
       s.setProperty('--measure', (+p.lineWidth || 68) + 'ch');
       s.setProperty('--lh-body', (+p.leading || 1.7).toString());
@@ -65,7 +65,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../assets/learn.css">
 
-  <script type="application/json" data-inema-manifest>
+  <script type="application/json" data-ARCKHÉ-manifest>
 {"course":"vendas-ia-consultoria","tracks":[
 {"n":"1","title":"Diagnóstico","modules":[{"id":"1-1","title":"Por que a maioria dos consultores de IA falha","topics":7,"href":"curso/trilha1/modulo-1-1.html"},{"id":"1-2","title":"A call de diagnóstico","topics":8,"href":"curso/trilha1/modulo-1-2.html"}]},
 {"n":"2","title":"Solução e preço","modules":[{"id":"2-1","title":"Desenho de solução e preço que escala","topics":8,"href":"curso/trilha2/modulo-2-1.html"},{"id":"2-2","title":"Autópsia da call","topics":7,"href":"curso/trilha2/modulo-2-2.html"}]},
@@ -142,7 +142,7 @@
     }
   </style>
 </head>
-<body class="bg-dark-900 text-neutral-100 min-h-screen"><div class="inema-nova-versao" style="position:relative;z-index:9998;background:#FACC15;color:#0c0c10;font:600 14px/1.4 Sora,Inter,system-ui,sans-serif;padding:10px 16px;text-align:center">Este curso tem uma versão nova, mais direta, com prática e conversa simulada. <a href="https://inematds.github.io/formacao-vendas-ia-consultoria-v72/" style="color:#0c0c10;text-decoration:underline;font-weight:700">Abrir a versão nova →</a></div>
+<body class="bg-dark-900 text-neutral-100 min-h-screen"><div class="ARCKHÉ-nova-versao" style="position:relative;z-index:9998;background:#FACC15;color:#0c0c10;font:600 14px/1.4 Sora,Inter,system-ui,sans-serif;padding:10px 16px;text-align:center">Este curso tem uma versão nova, mais direta, com prática e conversa simulada. <a href="https://linnoff88-dev.github.io/ style="color:#0c0c10;text-decoration:underline;font-weight:700">Abrir a versão nova →</a></div>
 
   <a class="skip" href="#conteudo">Pular para o conteúdo</a>
 
@@ -155,14 +155,14 @@
             <span class="font-bold text-lg hidden sm:inline">Consultoria em IA</span>
           </a>
           <span class="text-neutral-600">|</span>
-          <a href="https://inema.club" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium">INEMA.CLUB</a>
+          <a href="https://ARCKHÉ AI" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium">ARCKHÉ AI</a>
           <span class="text-neutral-600">-</span>
-          <a href="https://inema.pro" target="_blank" class="text-amber-700 hover:text-amber-600 dark:text-slate-300 dark:hover:text-slate-200 text-sm font-medium">PRO</a>
+          <a href="https://ARCKHÉ.pro" target="_blank" class="text-amber-700 hover:text-amber-600 dark:text-slate-300 dark:hover:text-slate-200 text-sm font-medium">PRO</a>
         </div>
         <div class="flex items-center space-x-1 sm:space-x-2">
-          <button type="button" data-inema-journey-open class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors text-sm" title="Sua jornada no curso">
+          <button type="button" data-ARCKHÉ-journey-open class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-neutral-300 hover:text-neutral-100 hover:bg-dark-700 transition-colors text-sm" title="Sua jornada no curso">
             <span aria-hidden="true">◷</span><span class="hidden md:inline">Minha jornada</span>
-            <span class="inema-journey-badge hidden" data-inema-journey-badge aria-hidden="true"></span>
+            <span class="ARCKHÉ-journey-badge hidden" data-ARCKHÉ-journey-badge aria-hidden="true"></span>
           </button>
           <a href="../trilha1/index.html" class="px-2 sm:px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors"><span class="sm:hidden">T1</span><span class="hidden sm:inline">Diagnóstico</span></a>
           <a href="../trilha2/index.html" class="px-2 sm:px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-blue-400 hover:bg-blue-500/10 transition-colors"><span class="sm:hidden">T2</span><span class="hidden sm:inline">Solução e preço</span></a>
@@ -188,23 +188,23 @@
       </div>
     </nav>
 
-    <article id="modulo-4-1" data-inema-module="4-1" data-inema-track="4">
+    <article id="modulo-4-1" data-ARCKHÉ-module="4-1" data-ARCKHÉ-track="4">
     <header class="bg-gradient-to-br from-amber-900/30 via-dark-800 to-dark-800 py-12 border-b border-dark-600">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <span class="inline-block px-3 py-1 bg-amber-500/20 text-amber-400 text-xs font-semibold rounded-full mb-4">MODULO 4.1</span>
         <h1 class="text-3xl sm:text-4xl font-bold mb-4">🧲 Clientes que vêm até você e workshops em minutos</h1>
-        <p class="text-lg text-neutral-400 max-w-3xl" data-inema-block="m4-1-head">Aqui a lógica inverte: em vez de perseguir cliente, você constrói o rastro que faz o cliente aparecer. Fóruns públicos, comunidades de nicho, plantão gratuito, iscas digitais e código aberto — e, no fim, o workshop sob medida que antes custava dois dias de trabalho e agora sai em uma hora.</p>
+        <p class="text-lg text-neutral-400 max-w-3xl" data-ARCKHÉ-block="m4-1-head">Aqui a lógica inverte: em vez de perseguir cliente, você constrói o rastro que faz o cliente aparecer. Fóruns públicos, comunidades de nicho, plantão gratuito, iscas digitais e código aberto — e, no fim, o workshop sob medida que antes custava dois dias de trabalho e agora sai em uma hora.</p>
         <div class="grid grid-cols-4 gap-4 mt-8 max-w-2xl">
           <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-amber-400">8</div><div class="text-xs text-neutral-400">Tópicos</div></div>
           <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-amber-400">70</div><div class="text-xs text-neutral-400">Minutos</div></div>
           <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-amber-400">Prática</div><div class="text-xs text-neutral-400">Nível</div></div>
           <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-amber-400">Aquisição</div><div class="text-xs text-neutral-400">Tipo</div></div>
         </div>
-        <div data-inema-meter="modulo:4-1" class="inema-meter mt-6 max-w-md" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-label="Progresso do módulo 4.1">
+        <div data-ARCKHÉ-meter="modulo:4-1" class="ARCKHÉ-meter mt-6 max-w-md" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-label="Progresso do módulo 4.1">
           <div class="flex items-center gap-3">
-            <span class="text-amber-400 font-bold w-12" data-inema-meter-pct>0%</span>
-            <div class="inema-bar flex-1"><div class="inema-bar__fill" data-inema-meter-fill></div></div>
-            <span class="text-xs text-neutral-400 w-16" data-inema-meter-frac>0 de 8</span>
+            <span class="text-amber-400 font-bold w-12" data-ARCKHÉ-meter-pct>0%</span>
+            <div class="ARCKHÉ-bar flex-1"><div class="ARCKHÉ-bar__fill" data-ARCKHÉ-meter-fill></div></div>
+            <span class="text-xs text-neutral-400 w-16" data-ARCKHÉ-meter-frac>0 de 8</span>
           </div>
         </div>
       </div>
@@ -216,15 +216,15 @@
         <div><!-- COLUNA PRINCIPAL -->
 
         <!-- TOPICO 1 -->
-        <section id="topico-1" data-inema-topic="modulo-4-1#topico-1" class="mb-16">
+        <section id="topico-1" data-ARCKHÉ-topic="modulo-4-1#topico-1" class="mb-16">
           <div class="flex items-center justify-between mb-6">
             <div class="flex items-center space-x-4">
               <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">1</span>
               <h2 class="text-2xl font-bold">🥶 Por que a prospecção fria está ficando cara</h2>
             </div>
-            <button type="button" data-inema-doubt-toggle aria-pressed="false" title="Marcar dúvida neste tópico" class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0"> <span aria-hidden="true">?</span><span>Tenho dúvida</span> </button>
+            <button type="button" data-ARCKHÉ-doubt-toggle aria-pressed="false" title="Marcar dúvida neste tópico" class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0"> <span aria-hidden="true">?</span><span>Tenho dúvida</span> </button>
           </div>
-          <p class="text-neutral-300 mb-4 leading-relaxed" data-inema-block="m4-1-t1-p1"> Abordagem fria ainda funciona. Só que ela está entrando num mundo em que milhões de pessoas disparam mensagens automatizadas para as mesmas caixas de entrada. Quando todo mundo tem a mesma ferramenta, <strong class="text-amber-400">a novidade de uma mensagem gerada por IA expira</strong> — e o destinatário fica insensível ao formato inteiro, não só à sua mensagem. </p>
+          <p class="text-neutral-300 mb-4 leading-relaxed" data-ARCKHÉ-block="m4-1-t1-p1"> Abordagem fria ainda funciona. Só que ela está entrando num mundo em que milhões de pessoas disparam mensagens automatizadas para as mesmas caixas de entrada. Quando todo mundo tem a mesma ferramenta, <strong class="text-amber-400">a novidade de uma mensagem gerada por IA expira</strong> — e o destinatário fica insensível ao formato inteiro, não só à sua mensagem. </p>
           <div class="bg-dark-700/40 border-l-4 border-amber-500/40 rounded-r-lg px-4 py-3 mb-6"> <p class="text-sm text-neutral-300"><strong class="text-amber-400">Novo aqui?</strong> <strong>Prospecção fria</strong> é você iniciar contato com alguém que nunca ouviu falar de você — mensagem, ligação ou e-mail sem nenhuma relação prévia. <strong>Inbound</strong> (ou entrada espontânea) é o contrário: a pessoa chega até você porque encontrou algo seu que resolveu um problema dela.</p> </div>
           <div class="rounded-2xl border border-amber-500/30 bg-dark-900/40 p-3 sm:p-4 mb-8 overflow-hidden">
             <svg viewBox="0 0 1000 250" class="w-full h-auto" role="img" aria-label="Gráfico comparando o custo por resposta ao longo do tempo em dois canais: a linha da prospecção fria sobe continuamente, porque o volume de mensagens automatizadas cresce e a taxa de resposta cai; a linha da entrada espontânea desce, porque o conteúdo publicado continua atraindo contatos sem custo novo">
@@ -255,27 +255,27 @@
             <p class="text-neutral-300 text-sm">Se você é tímido, a abordagem fria pode ser exatamente o empurrão que tira você da concha: ela força conversa, treina resposta e mata o medo de ouvir não. A escolha do canal deve seguir a <strong>sua personalidade</strong>, não a receita de um guru. Quem odeia abordar não vai sustentar a rotina — e uma rotina que você abandona em três semanas custa mais do que qualquer canal caro.</p>
           </div>
           <div class="flex justify-start mt-6">
-            <button type="button" data-inema-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-amber-500/20 border border-amber-500/30 text-amber-400 hover:bg-amber-500/30 transition-colors"> <span class="inema-ico-todo" aria-hidden="true">○</span><span class="inema-ico-done hidden" aria-hidden="true">●</span> <span class="inema-label-todo">Marcar como lido</span><span class="inema-label-done hidden">Lido</span> </button>
+            <button type="button" data-ARCKHÉ-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-amber-500/20 border border-amber-500/30 text-amber-400 hover:bg-amber-500/30 transition-colors"> <span class="ARCKHÉ-ico-todo" aria-hidden="true">○</span><span class="ARCKHÉ-ico-done hidden" aria-hidden="true">●</span> <span class="ARCKHÉ-label-todo">Marcar como lido</span><span class="ARCKHÉ-label-done hidden">Lido</span> </button>
           </div>
         </section>
 
         <!-- TOPICO 2 -->
-        <section id="topico-2" data-inema-topic="modulo-4-1#topico-2" class="mb-16">
+        <section id="topico-2" data-ARCKHÉ-topic="modulo-4-1#topico-2" class="mb-16">
           <div class="flex items-center justify-between mb-6">
             <div class="flex items-center space-x-4">
               <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">2</span>
               <h2 class="text-2xl font-bold">🗣️ Fóruns públicos: onde a dor é escrita em voz alta</h2>
             </div>
-            <button type="button" data-inema-doubt-toggle aria-pressed="false" title="Marcar dúvida neste tópico" class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0"> <span aria-hidden="true">?</span><span>Tenho dúvida</span> </button>
+            <button type="button" data-ARCKHÉ-doubt-toggle aria-pressed="false" title="Marcar dúvida neste tópico" class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0"> <span aria-hidden="true">?</span><span>Tenho dúvida</span> </button>
           </div>
-          <p class="text-neutral-300 mb-6 leading-relaxed" data-inema-block="m4-1-t2-p1"> Os modelos de linguagem foram treinados em boa parte com discussões públicas da internet. Isso não é um detalhe técnico: é uma pista de negócio. É nesses fóruns que as pessoas descrevem os próprios problemas <strong class="text-amber-400">com as próprias palavras</strong>, sem filtro corporativo. Seu futuro cliente está reclamando do problema dele em algum fórum público neste momento. </p>
+          <p class="text-neutral-300 mb-6 leading-relaxed" data-ARCKHÉ-block="m4-1-t2-p1"> Os modelos de linguagem foram treinados em boa parte com discussões públicas da internet. Isso não é um detalhe técnico: é uma pista de negócio. É nesses fóruns que as pessoas descrevem os próprios problemas <strong class="text-amber-400">com as próprias palavras</strong>, sem filtro corporativo. Seu futuro cliente está reclamando do problema dele em algum fórum público neste momento. </p>
           <div class="bg-gradient-to-br from-amber-900/30 to-dark-800 rounded-xl border border-amber-500/30 p-6 mb-6">
             <h3 class="text-lg font-semibold text-amber-400 mb-3 flex items-center"><span class="mr-2">📌</span> Caso anônimo</h3>
             <p class="text-neutral-300 text-sm mb-3">Um consultor passou a responder dúvidas em fóruns públicos sobre agentes de voz e soluções de IA. Não vendia nada: respondia. Em poucos meses passou a receber entre 10 e 15 contatos por dia por mensagem direta — gente pedindo orçamento sem ele ter enviado uma única proposta.</p>
             <p class="text-neutral-300 text-sm">O ativo construído não foi audiência. Foi um histórico público de respostas úteis, indexado e permanente, que qualquer pessoa com o mesmo problema encontra depois.</p>
           </div>
           <div class="bg-dark-700/40 border-l-4 border-amber-500/40 rounded-r-lg px-4 py-3 mb-6"> <p class="text-sm text-neutral-300"><strong class="text-amber-400">A arbitragem de conhecimento.</strong> Por viver imerso no assunto, você superestima o que os outros sabem. A maioria das pessoas ainda pergunta como fazer coisas que hoje se resolvem em um clique. O que para você é óbvio demais para publicar é, para o mercado, exatamente a resposta que faltava.</p> </div>
-          <p class="text-neutral-300 mb-6 leading-relaxed" data-inema-block="m4-1-t2-p2"> Ferramentas de monitoramento de fórum permitem acompanhar palavras-chave e ver onde a discussão do seu tema acontece — assim você não perde tempo procurando conversa, você chega nela. O roteiro realista: <strong>5 a 7 horas por semana, durante alguns meses</strong>, respondendo, publicando e observando qual pergunta se repete. </p>
+          <p class="text-neutral-300 mb-6 leading-relaxed" data-ARCKHÉ-block="m4-1-t2-p2"> Ferramentas de monitoramento de fórum permitem acompanhar palavras-chave e ver onde a discussão do seu tema acontece — assim você não perde tempo procurando conversa, você chega nela. O roteiro realista: <strong>5 a 7 horas por semana, durante alguns meses</strong>, respondendo, publicando e observando qual pergunta se repete. </p>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             <div class="bg-amber-900/20 rounded-xl border border-amber-500/30 p-6">
               <h4 class="font-bold text-amber-400 mb-4">✓ Como participar sem parecer vendedor</h4>
@@ -297,20 +297,20 @@
             </div>
           </div>
           <div class="flex justify-start mt-6">
-            <button type="button" data-inema-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-amber-500/20 border border-amber-500/30 text-amber-400 hover:bg-amber-500/30 transition-colors"> <span class="inema-ico-todo" aria-hidden="true">○</span><span class="inema-ico-done hidden" aria-hidden="true">●</span> <span class="inema-label-todo">Marcar como lido</span><span class="inema-label-done hidden">Lido</span> </button>
+            <button type="button" data-ARCKHÉ-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-amber-500/20 border border-amber-500/30 text-amber-400 hover:bg-amber-500/30 transition-colors"> <span class="ARCKHÉ-ico-todo" aria-hidden="true">○</span><span class="ARCKHÉ-ico-done hidden" aria-hidden="true">●</span> <span class="ARCKHÉ-label-todo">Marcar como lido</span><span class="ARCKHÉ-label-done hidden">Lido</span> </button>
           </div>
         </section>
 
         <!-- TOPICO 3 -->
-        <section id="topico-3" data-inema-topic="modulo-4-1#topico-3" class="mb-16">
+        <section id="topico-3" data-ARCKHÉ-topic="modulo-4-1#topico-3" class="mb-16">
           <div class="flex items-center justify-between mb-6">
             <div class="flex items-center space-x-4">
               <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">3</span>
               <h2 class="text-2xl font-bold">🎯 Comunidades de nicho fora do mundo de IA</h2>
             </div>
-            <button type="button" data-inema-doubt-toggle aria-pressed="false" title="Marcar dúvida neste tópico" class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0"> <span aria-hidden="true">?</span><span>Tenho dúvida</span> </button>
+            <button type="button" data-ARCKHÉ-doubt-toggle aria-pressed="false" title="Marcar dúvida neste tópico" class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0"> <span aria-hidden="true">?</span><span>Tenho dúvida</span> </button>
           </div>
-          <p class="text-neutral-300 mb-6 leading-relaxed" data-inema-block="m4-1-t3-p1"> Entre em espaços pagos dos setores que você quer atender — não em mais um espaço de IA. A regra é simples: <strong class="text-amber-400">dentro do mundo de IA, todo mundo já sabe o básico e você não se destaca</strong>. Fora dele, o mesmo conhecimento parece raro. </p>
+          <p class="text-neutral-300 mb-6 leading-relaxed" data-ARCKHÉ-block="m4-1-t3-p1"> Entre em espaços pagos dos setores que você quer atender — não em mais um espaço de IA. A regra é simples: <strong class="text-amber-400">dentro do mundo de IA, todo mundo já sabe o básico e você não se destaca</strong>. Fora dele, o mesmo conhecimento parece raro. </p>
           <div class="bg-gradient-to-br from-amber-900/30 to-dark-800 rounded-xl border border-amber-500/30 p-6 mb-6">
             <h3 class="text-lg font-semibold text-amber-400 mb-3 flex items-center"><span class="mr-2">🧾</span> O exemplo que se repete</h3>
             <p class="text-neutral-300 text-sm">Num grupo pago de contabilidade, alguém pergunta como automatizar uma tarefa repetitiva de planilha que consome duas horas por dia. Você responde com uma capacidade recente de IA aplicada àquele problema específico — não em tese, com o passo a passo. Você vira referência instantânea naquele grupo, e as mensagens diretas começam no mesmo dia.</p>
@@ -350,20 +350,20 @@
             <p class="text-neutral-300 text-sm">Assinaturas de comunidades de setor costumam custar entre US$ 30 e US$ 100 por mês como ordem de grandeza — <strong>adapte ao seu mercado</strong>. Trate isso como custo de aquisição de cliente, não como despesa de estudo: um único contrato paga o ano inteiro de várias assinaturas somadas.</p>
           </div>
           <div class="flex justify-start mt-6">
-            <button type="button" data-inema-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-amber-500/20 border border-amber-500/30 text-amber-400 hover:bg-amber-500/30 transition-colors"> <span class="inema-ico-todo" aria-hidden="true">○</span><span class="inema-ico-done hidden" aria-hidden="true">●</span> <span class="inema-label-todo">Marcar como lido</span><span class="inema-label-done hidden">Lido</span> </button>
+            <button type="button" data-ARCKHÉ-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-amber-500/20 border border-amber-500/30 text-amber-400 hover:bg-amber-500/30 transition-colors"> <span class="ARCKHÉ-ico-todo" aria-hidden="true">○</span><span class="ARCKHÉ-ico-done hidden" aria-hidden="true">●</span> <span class="ARCKHÉ-label-todo">Marcar como lido</span><span class="ARCKHÉ-label-done hidden">Lido</span> </button>
           </div>
         </section>
 
         <!-- TOPICO 4 -->
-        <section id="topico-4" data-inema-topic="modulo-4-1#topico-4" class="mb-16">
+        <section id="topico-4" data-ARCKHÉ-topic="modulo-4-1#topico-4" class="mb-16">
           <div class="flex items-center justify-between mb-6">
             <div class="flex items-center space-x-4">
               <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">4</span>
               <h2 class="text-2xl font-bold">📝 Rede profissional sem conteúdo automático mal feito</h2>
             </div>
-            <button type="button" data-inema-doubt-toggle aria-pressed="false" title="Marcar dúvida neste tópico" class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0"> <span aria-hidden="true">?</span><span>Tenho dúvida</span> </button>
+            <button type="button" data-ARCKHÉ-doubt-toggle aria-pressed="false" title="Marcar dúvida neste tópico" class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0"> <span aria-hidden="true">?</span><span>Tenho dúvida</span> </button>
           </div>
-          <p class="text-neutral-300 mb-6 leading-relaxed" data-inema-block="m4-1-t4-p1"> O problema é visível a olho nu: perfis cheios de emoji de foguete, um emoji em cada item de lista e travessão em toda frase. As pessoas já reconhecem texto gerado e publicado sem revisão — e isso <strong class="text-amber-400">dilui a sua marca em vez de construí-la</strong>. </p>
+          <p class="text-neutral-300 mb-6 leading-relaxed" data-ARCKHÉ-block="m4-1-t4-p1"> O problema é visível a olho nu: perfis cheios de emoji de foguete, um emoji em cada item de lista e travessão em toda frase. As pessoas já reconhecem texto gerado e publicado sem revisão — e isso <strong class="text-amber-400">dilui a sua marca em vez de construí-la</strong>. </p>
           <div class="space-y-6 mb-6">
             <div class="flex items-start space-x-4">
               <div class="flex-shrink-0 w-12 h-12 rounded-full bg-amber-500/20 flex items-center justify-center"><span class="text-amber-400 font-bold">1</span></div>
@@ -403,20 +403,20 @@
             </div>
           </div>
           <div class="flex justify-start mt-6">
-            <button type="button" data-inema-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-amber-500/20 border border-amber-500/30 text-amber-400 hover:bg-amber-500/30 transition-colors"> <span class="inema-ico-todo" aria-hidden="true">○</span><span class="inema-ico-done hidden" aria-hidden="true">●</span> <span class="inema-label-todo">Marcar como lido</span><span class="inema-label-done hidden">Lido</span> </button>
+            <button type="button" data-ARCKHÉ-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-amber-500/20 border border-amber-500/30 text-amber-400 hover:bg-amber-500/30 transition-colors"> <span class="ARCKHÉ-ico-todo" aria-hidden="true">○</span><span class="ARCKHÉ-ico-done hidden" aria-hidden="true">●</span> <span class="ARCKHÉ-label-todo">Marcar como lido</span><span class="ARCKHÉ-label-done hidden">Lido</span> </button>
           </div>
         </section>
 
         <!-- TOPICO 5 -->
-        <section id="topico-5" data-inema-topic="modulo-4-1#topico-5" class="mb-16">
+        <section id="topico-5" data-ARCKHÉ-topic="modulo-4-1#topico-5" class="mb-16">
           <div class="flex items-center justify-between mb-6">
             <div class="flex items-center space-x-4">
               <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">5</span>
               <h2 class="text-2xl font-bold">🕐 Plantão gratuito: a máquina de conversão</h2>
             </div>
-            <button type="button" data-inema-doubt-toggle aria-pressed="false" title="Marcar dúvida neste tópico" class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0"> <span aria-hidden="true">?</span><span>Tenho dúvida</span> </button>
+            <button type="button" data-ARCKHÉ-doubt-toggle aria-pressed="false" title="Marcar dúvida neste tópico" class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0"> <span aria-hidden="true">?</span><span>Tenho dúvida</span> </button>
           </div>
-          <p class="text-neutral-300 mb-6 leading-relaxed" data-inema-block="m4-1-t5-p1"> Ofereça horas de dúvidas abertas toda semana. Qualquer pessoa entra, pergunta o que quiser, você resolve ao vivo. Registre as sessões e publique os trechos como conteúdo. A roda gira sozinha: <strong class="text-amber-400">você entrega valor → registra a entrega → o registro vira material que entrega valor de novo</strong>. </p>
+          <p class="text-neutral-300 mb-6 leading-relaxed" data-ARCKHÉ-block="m4-1-t5-p1"> Ofereça horas de dúvidas abertas toda semana. Qualquer pessoa entra, pergunta o que quiser, você resolve ao vivo. Registre as sessões e publique os trechos como conteúdo. A roda gira sozinha: <strong class="text-amber-400">você entrega valor → registra a entrega → o registro vira material que entrega valor de novo</strong>. </p>
           <div class="space-y-6 mb-6">
             <div class="flex items-start space-x-4">
               <div class="flex-shrink-0 w-12 h-12 rounded-full bg-amber-500/20 flex items-center justify-center"><span class="text-amber-400 font-bold">1</span></div>
@@ -441,20 +441,20 @@
             <p class="text-neutral-300 text-sm">Tamanho da audiência importa menos do que a qualidade da destilação. Três pessoas por sessão, bem atendidas e bem registradas, valem mais do que trinta ouvintes passivos.</p>
           </div>
           <div class="flex justify-start mt-6">
-            <button type="button" data-inema-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-amber-500/20 border border-amber-500/30 text-amber-400 hover:bg-amber-500/30 transition-colors"> <span class="inema-ico-todo" aria-hidden="true">○</span><span class="inema-ico-done hidden" aria-hidden="true">●</span> <span class="inema-label-todo">Marcar como lido</span><span class="inema-label-done hidden">Lido</span> </button>
+            <button type="button" data-ARCKHÉ-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-amber-500/20 border border-amber-500/30 text-amber-400 hover:bg-amber-500/30 transition-colors"> <span class="ARCKHÉ-ico-todo" aria-hidden="true">○</span><span class="ARCKHÉ-ico-done hidden" aria-hidden="true">●</span> <span class="ARCKHÉ-label-todo">Marcar como lido</span><span class="ARCKHÉ-label-done hidden">Lido</span> </button>
           </div>
         </section>
 
         <!-- TOPICO 6 -->
-        <section id="topico-6" data-inema-topic="modulo-4-1#topico-6" class="mb-16">
+        <section id="topico-6" data-ARCKHÉ-topic="modulo-4-1#topico-6" class="mb-16">
           <div class="flex items-center justify-between mb-6">
             <div class="flex items-center space-x-4">
               <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">6</span>
               <h2 class="text-2xl font-bold">🧲 Iscas digitais em quinze minutos</h2>
             </div>
-            <button type="button" data-inema-doubt-toggle aria-pressed="false" title="Marcar dúvida neste tópico" class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0"> <span aria-hidden="true">?</span><span>Tenho dúvida</span> </button>
+            <button type="button" data-ARCKHÉ-doubt-toggle aria-pressed="false" title="Marcar dúvida neste tópico" class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0"> <span aria-hidden="true">?</span><span>Tenho dúvida</span> </button>
           </div>
-          <p class="text-neutral-300 mb-4 leading-relaxed" data-inema-block="m4-1-t6-p1"> Exemplo anônimo: um pequeno assistente jurídico para uma área específica do direito, construído em 15 a 20 minutos num ambiente gratuito de prototipagem. A pessoa descreve a situação em linguagem natural e recebe um texto de apoio pronto para revisão. Nada de genial na construção. </p>
+          <p class="text-neutral-300 mb-4 leading-relaxed" data-ARCKHÉ-block="m4-1-t6-p1"> Exemplo anônimo: um pequeno assistente jurídico para uma área específica do direito, construído em 15 a 20 minutos num ambiente gratuito de prototipagem. A pessoa descreve a situação em linguagem natural e recebe um texto de apoio pronto para revisão. Nada de genial na construção. </p>
           <div class="bg-dark-700/40 border-l-4 border-amber-500/40 rounded-r-lg px-4 py-3 mb-6"> <p class="text-sm text-neutral-300"><strong class="text-amber-400">Novo aqui?</strong> <strong>Isca digital</strong> é algo útil que você entrega de graça para que a pessoa se identifique e entre em contato. Antes era um documento em PDF; hoje é uma ferramentinha que funciona. O ponto é a <strong>assimetria</strong>: valor percebido alto, tempo investido baixo.</p> </div>
           <div class="bg-primary/10 rounded-xl border border-primary/40 p-6 mb-6">
             <h3 class="text-lg font-semibold text-primary mb-2 flex items-center"><span class="mr-2">💡</span> Plano de ação</h3>
@@ -489,20 +489,20 @@ Nada de recursos extras. Se der para cortar, corte.</pre>
             </div>
           </div>
           <div class="flex justify-start mt-6">
-            <button type="button" data-inema-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-amber-500/20 border border-amber-500/30 text-amber-400 hover:bg-amber-500/30 transition-colors"> <span class="inema-ico-todo" aria-hidden="true">○</span><span class="inema-ico-done hidden" aria-hidden="true">●</span> <span class="inema-label-todo">Marcar como lido</span><span class="inema-label-done hidden">Lido</span> </button>
+            <button type="button" data-ARCKHÉ-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-amber-500/20 border border-amber-500/30 text-amber-400 hover:bg-amber-500/30 transition-colors"> <span class="ARCKHÉ-ico-todo" aria-hidden="true">○</span><span class="ARCKHÉ-ico-done hidden" aria-hidden="true">●</span> <span class="ARCKHÉ-label-todo">Marcar como lido</span><span class="ARCKHÉ-label-done hidden">Lido</span> </button>
           </div>
         </section>
 
         <!-- TOPICO 7 -->
-        <section id="topico-7" data-inema-topic="modulo-4-1#topico-7" class="mb-16">
+        <section id="topico-7" data-ARCKHÉ-topic="modulo-4-1#topico-7" class="mb-16">
           <div class="flex items-center justify-between mb-6">
             <div class="flex items-center space-x-4">
               <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">7</span>
               <h2 class="text-2xl font-bold">📦 Código aberto como portfólio</h2>
             </div>
-            <button type="button" data-inema-doubt-toggle aria-pressed="false" title="Marcar dúvida neste tópico" class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0"> <span aria-hidden="true">?</span><span>Tenho dúvida</span> </button>
+            <button type="button" data-ARCKHÉ-doubt-toggle aria-pressed="false" title="Marcar dúvida neste tópico" class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0"> <span aria-hidden="true">?</span><span>Tenho dúvida</span> </button>
           </div>
-          <p class="text-neutral-300 mb-6 leading-relaxed" data-inema-block="m4-1-t7-p1"> Publique ferramentas prontas e completas de graça: uma biblioteca de modelos de automação organizada por setor, um auditor que aponta o que está mal feito num fluxo, um conjunto de projetos de assistente já configurados. Hoje um assistente de programação escreve o repositório <em>e</em> a documentação de instalação para iniciante — o que antes era o trabalho caro virou o barato. </p>
+          <p class="text-neutral-300 mb-6 leading-relaxed" data-ARCKHÉ-block="m4-1-t7-p1"> Publique ferramentas prontas e completas de graça: uma biblioteca de modelos de automação organizada por setor, um auditor que aponta o que está mal feito num fluxo, um conjunto de projetos de assistente já configurados. Hoje um assistente de programação escreve o repositório <em>e</em> a documentação de instalação para iniciante — o que antes era o trabalho caro virou o barato. </p>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
             <div class="bg-dark-800 rounded-xl border border-amber-500/30 p-5"> <h4 class="font-bold text-amber-400 mb-2">Ganho 1 — portfólio verificável</h4> <p class="text-sm text-neutral-400">Ninguém precisa acreditar no seu currículo: o código está lá, funciona, e qualquer pessoa técnica do lado do cliente confirma em cinco minutos.</p> </div>
             <div class="bg-dark-800 rounded-xl border border-amber-500/30 p-5"> <h4 class="font-bold text-amber-400 mb-2">Ganho 2 — a janela aberta</h4> <p class="text-sm text-neutral-400">A maioria ainda não sabe que dá para construir isso em poucas horas. Enquanto durar esse desconhecimento, o esforço parece muito maior do que foi.</p> </div>
@@ -536,20 +536,20 @@ Nada de recursos extras. Se der para cortar, corte.</pre>
             <p class="text-neutral-300 text-sm">Repositório sem instruções, exemplo que não roda, nome de arquivo bagunçado: a pessoa conclui que é assim que você entrega o trabalho pago também. <strong>A primeira impressão define o que pensam do resto</strong>. Se não der para caprichar, não publique.</p>
           </div>
           <div class="flex justify-start mt-6">
-            <button type="button" data-inema-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-amber-500/20 border border-amber-500/30 text-amber-400 hover:bg-amber-500/30 transition-colors"> <span class="inema-ico-todo" aria-hidden="true">○</span><span class="inema-ico-done hidden" aria-hidden="true">●</span> <span class="inema-label-todo">Marcar como lido</span><span class="inema-label-done hidden">Lido</span> </button>
+            <button type="button" data-ARCKHÉ-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-amber-500/20 border border-amber-500/30 text-amber-400 hover:bg-amber-500/30 transition-colors"> <span class="ARCKHÉ-ico-todo" aria-hidden="true">○</span><span class="ARCKHÉ-ico-done hidden" aria-hidden="true">●</span> <span class="ARCKHÉ-label-todo">Marcar como lido</span><span class="ARCKHÉ-label-done hidden">Lido</span> </button>
           </div>
         </section>
 
         <!-- TOPICO 8 -->
-        <section id="topico-8" data-inema-topic="modulo-4-1#topico-8" class="mb-16">
+        <section id="topico-8" data-ARCKHÉ-topic="modulo-4-1#topico-8" class="mb-16">
           <div class="flex items-center justify-between mb-6">
             <div class="flex items-center space-x-4">
               <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">8</span>
               <h2 class="text-2xl font-bold">⚡ Workshop sob medida em uma hora</h2>
             </div>
-            <button type="button" data-inema-doubt-toggle aria-pressed="false" title="Marcar dúvida neste tópico" class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0"> <span aria-hidden="true">?</span><span>Tenho dúvida</span> </button>
+            <button type="button" data-ARCKHÉ-doubt-toggle aria-pressed="false" title="Marcar dúvida neste tópico" class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-700 border border-dark-600 text-neutral-300 hover:bg-dark-600 transition-colors text-sm flex-shrink-0"> <span aria-hidden="true">?</span><span>Tenho dúvida</span> </button>
           </div>
-          <p class="text-neutral-300 mb-6 leading-relaxed" data-inema-block="m4-1-t8-p1"> Montar um workshop personalizado para uma empresa custava de 9 a 12 horas: pesquisar o setor, entender o negócio, escolher exemplos, escrever, diagramar. Com um fluxo de duas etapas, isso cabe em uma hora — sem que o resultado pareça apressado. </p>
+          <p class="text-neutral-300 mb-6 leading-relaxed" data-ARCKHÉ-block="m4-1-t8-p1"> Montar um workshop personalizado para uma empresa custava de 9 a 12 horas: pesquisar o setor, entender o negócio, escolher exemplos, escrever, diagramar. Com um fluxo de duas etapas, isso cabe em uma hora — sem que o resultado pareça apressado. </p>
           <div class="space-y-6 mb-6">
             <div class="flex items-start space-x-4">
               <div class="flex-shrink-0 w-12 h-12 rounded-full bg-amber-500/20 flex items-center justify-center"><span class="text-amber-400 font-bold">1</span></div>
@@ -645,19 +645,19 @@ cada módulo com conceito, quando usar, antes e depois, exemplo do setor.</pre>
             </div>
           </div>
           <div class="flex justify-start mt-6">
-            <button type="button" data-inema-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-amber-500/20 border border-amber-500/30 text-amber-400 hover:bg-amber-500/30 transition-colors"> <span class="inema-ico-todo" aria-hidden="true">○</span><span class="inema-ico-done hidden" aria-hidden="true">●</span> <span class="inema-label-todo">Marcar como lido</span><span class="inema-label-done hidden">Lido</span> </button>
+            <button type="button" data-ARCKHÉ-read-toggle aria-pressed="false" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-amber-500/20 border border-amber-500/30 text-amber-400 hover:bg-amber-500/30 transition-colors"> <span class="ARCKHÉ-ico-todo" aria-hidden="true">○</span><span class="ARCKHÉ-ico-done hidden" aria-hidden="true">●</span> <span class="ARCKHÉ-label-todo">Marcar como lido</span><span class="ARCKHÉ-label-done hidden">Lido</span> </button>
           </div>
         </section>
 
         <!-- CHECAGEM LEVE -->
-        <div data-inema-check="modulo-4-1#q1" class="inema-check bg-dark-800 border border-dark-600 rounded-xl p-6 mb-12">
+        <div data-ARCKHÉ-check="modulo-4-1#q1" class="ARCKHÉ-check bg-dark-800 border border-dark-600 rounded-xl p-6 mb-12">
           <p class="font-medium mb-4">Auto-verificação rápida (opcional): no fluxo de workshop em duas etapas, qual é o papel do documento de síntese?</p>
-          <div class="inema-check-options space-y-2">
-            <button type="button" data-inema-check-option="0" class="block w-full text-left px-4 py-2 rounded-lg bg-dark-700 border border-dark-600 hover:bg-dark-600 transition-colors text-sm">Servir de material de entrega para o cliente no lugar dos slides</button>
-            <button type="button" data-inema-check-option="1" class="block w-full text-left px-4 py-2 rounded-lg bg-dark-700 border border-dark-600 hover:bg-dark-600 transition-colors text-sm">Cristalizar a pesquisa e permitir abrir uma conversa nova sem gastar contexto</button>
-            <button type="button" data-inema-check-option="2" class="block w-full text-left px-4 py-2 rounded-lg bg-dark-700 border border-dark-600 hover:bg-dark-600 transition-colors text-sm">Deixar o material mais longo para justificar o preço</button>
+          <div class="ARCKHÉ-check-options space-y-2">
+            <button type="button" data-ARCKHÉ-check-option="0" class="block w-full text-left px-4 py-2 rounded-lg bg-dark-700 border border-dark-600 hover:bg-dark-600 transition-colors text-sm">Servir de material de entrega para o cliente no lugar dos slides</button>
+            <button type="button" data-ARCKHÉ-check-option="1" class="block w-full text-left px-4 py-2 rounded-lg bg-dark-700 border border-dark-600 hover:bg-dark-600 transition-colors text-sm">Cristalizar a pesquisa e permitir abrir uma conversa nova sem gastar contexto</button>
+            <button type="button" data-ARCKHÉ-check-option="2" class="block w-full text-left px-4 py-2 rounded-lg bg-dark-700 border border-dark-600 hover:bg-dark-600 transition-colors text-sm">Deixar o material mais longo para justificar o preço</button>
           </div>
-          <div data-inema-check-feedback class="mt-4 text-sm" role="status" aria-live="polite"></div>
+          <div data-ARCKHÉ-check-feedback class="mt-4 text-sm" role="status" aria-live="polite"></div>
         </div>
 
         <!-- RESUMO FINAL -->
@@ -681,33 +681,33 @@ cada módulo com conceito, quando usar, antes e depois, exemplo do setor.</pre>
           </div>
         </section>
 
-        <div data-inema-meter="trilha:4" class="inema-meter max-w-md mb-4" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-label="Progresso da trilha 4">
+        <div data-ARCKHÉ-meter="trilha:4" class="ARCKHÉ-meter max-w-md mb-4" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-label="Progresso da trilha 4">
           <div class="flex items-center gap-2"><span class="text-xs text-neutral-500 w-24">Trilha 4:</span>
-            <div class="inema-bar flex-1"><div class="inema-bar__fill" data-inema-meter-fill></div></div>
-            <span class="text-xs text-neutral-400 w-14" data-inema-meter-pct>0%</span>
+            <div class="ARCKHÉ-bar flex-1"><div class="ARCKHÉ-bar__fill" data-ARCKHÉ-meter-fill></div></div>
+            <span class="text-xs text-neutral-400 w-14" data-ARCKHÉ-meter-pct>0%</span>
           </div>
         </div>
-        <div data-inema-meter="curso" class="inema-meter max-w-md mb-8" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-label="Progresso do curso">
+        <div data-ARCKHÉ-meter="curso" class="ARCKHÉ-meter max-w-md mb-8" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-label="Progresso do curso">
           <div class="flex items-center gap-2"><span class="text-xs text-neutral-500 w-24">Curso:</span>
-            <div class="inema-bar flex-1"><div class="inema-bar__fill" data-inema-meter-fill></div></div>
-            <span class="text-xs text-neutral-400 w-14" data-inema-meter-pct>0%</span>
+            <div class="ARCKHÉ-bar flex-1"><div class="ARCKHÉ-bar__fill" data-ARCKHÉ-meter-fill></div></div>
+            <span class="text-xs text-neutral-400 w-14" data-ARCKHÉ-meter-pct>0%</span>
           </div>
         </div>
 
         </div><!-- /coluna principal -->
 
         <!-- TOC STICKY -->
-        <nav data-inema-toc aria-label="Índice da página" class="hidden lg:block sticky top-24 self-start">
-          <p class="text-sm text-neutral-400 mb-2">Seção <span class="inema-toc-pos">1</span> de <span class="inema-toc-total">8</span></p>
+        <nav data-ARCKHÉ-toc aria-label="Índice da página" class="hidden lg:block sticky top-24 self-start">
+          <p class="text-sm text-neutral-400 mb-2">Seção <span class="ARCKHÉ-toc-pos">1</span> de <span class="ARCKHÉ-toc-total">8</span></p>
           <ul class="space-y-1 text-sm">
-            <li><a href="#topico-1" class="inema-toc-link block px-3 py-1.5 rounded-lg text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10">1. Prospecção fria cara</a></li>
-            <li><a href="#topico-2" class="inema-toc-link block px-3 py-1.5 rounded-lg text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10">2. Fóruns públicos</a></li>
-            <li><a href="#topico-3" class="inema-toc-link block px-3 py-1.5 rounded-lg text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10">3. Comunidades de nicho</a></li>
-            <li><a href="#topico-4" class="inema-toc-link block px-3 py-1.5 rounded-lg text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10">4. Rede profissional</a></li>
-            <li><a href="#topico-5" class="inema-toc-link block px-3 py-1.5 rounded-lg text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10">5. Plantão gratuito</a></li>
-            <li><a href="#topico-6" class="inema-toc-link block px-3 py-1.5 rounded-lg text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10">6. Iscas digitais</a></li>
-            <li><a href="#topico-7" class="inema-toc-link block px-3 py-1.5 rounded-lg text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10">7. Código aberto</a></li>
-            <li><a href="#topico-8" class="inema-toc-link block px-3 py-1.5 rounded-lg text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10">8. Workshop em 1 hora</a></li>
+            <li><a href="#topico-1" class="ARCKHÉ-toc-link block px-3 py-1.5 rounded-lg text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10">1. Prospecção fria cara</a></li>
+            <li><a href="#topico-2" class="ARCKHÉ-toc-link block px-3 py-1.5 rounded-lg text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10">2. Fóruns públicos</a></li>
+            <li><a href="#topico-3" class="ARCKHÉ-toc-link block px-3 py-1.5 rounded-lg text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10">3. Comunidades de nicho</a></li>
+            <li><a href="#topico-4" class="ARCKHÉ-toc-link block px-3 py-1.5 rounded-lg text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10">4. Rede profissional</a></li>
+            <li><a href="#topico-5" class="ARCKHÉ-toc-link block px-3 py-1.5 rounded-lg text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10">5. Plantão gratuito</a></li>
+            <li><a href="#topico-6" class="ARCKHÉ-toc-link block px-3 py-1.5 rounded-lg text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10">6. Iscas digitais</a></li>
+            <li><a href="#topico-7" class="ARCKHÉ-toc-link block px-3 py-1.5 rounded-lg text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10">7. Código aberto</a></li>
+            <li><a href="#topico-8" class="ARCKHÉ-toc-link block px-3 py-1.5 rounded-lg text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10">8. Workshop em 1 hora</a></li>
           </ul>
         </nav>
       </div>
@@ -746,10 +746,10 @@ cada módulo com conceito, quando usar, antes e depois, exemplo do setor.</pre>
   </script>
   <script src="../../assets/learn.js"></script>
   <script>
-    if (window.INEMA && typeof window.INEMA.init === 'function') { window.INEMA.init(); }
+    if (window.ARCKHÉ && typeof window.ARCKHÉ.init === 'function') { window.ARCKHÉ.init(); }
     window.addEventListener('DOMContentLoaded', function () {
-      if (window.INEMA && INEMA.registerCheck) {
-        INEMA.registerCheck('modulo-4-1#q1', {
+      if (window.ARCKHÉ && ARCKHÉ.registerCheck) {
+        ARCKHÉ.registerCheck('modulo-4-1#q1', {
           answer: 1,
           explain: {
             0: 'Não: o documento é insumo interno seu. O material do cliente continua sendo a apresentação revisada.',
