@@ -6,19 +6,19 @@
 </div>
 
 
-Curso interativo em PT-BR sobre consultoria de IA: diagnÃ³stico, desenho de soluÃ§Ã£o, preÃ§o, entrega e crescimento.
-4 trilhas Â· 8 mÃ³dulos Â· 62 tÃ³picos Â· formato ARCKHÉ AI (dark premium, progresso e anotaÃ§Ãµes no navegador).
+Curso interativo em PT-BR sobre consultoria de IA: diagnêÂ³stico, desenho de soluêÂ§êÂ£o, preêÂ§o, entrega e crescimento.
+4 trilhas êÂ· 8 mêÂ³dulos êÂ· 62 têÂ³picos êÂ· formato ARCKHê AI (dark premium, progresso e anotaêÂ§êÂµes no navegador).
 
 Abre direto no navegador: `index.html`. Sem build, sem servidor, sem cadastro.
-Faz parte da **FormaÃ§Ã£o Vendas com IA** â€” os outros quatro cursos estÃ£o listados na pÃ¡gina inicial.
+Faz parte da **FormaêÂ§êÂ£o Vendas com IA** ê¢â¬â os outros quatro cursos estêÂ£o listados na pêÂ¡gina inicial.
 
-<!-- ARCKHÉ-backlink:v1 -->
-## Mais no ARCKHÉ AI
+<!-- ARCKHê-backlink:v1 -->
+## Mais no ARCKHê AI
 
-- [Ficha completa deste curso](https://www.ARCKHÉ AI/cursos/252-formacao-vendas-com-ia-2-playbook-de-consultoria-em-ia/)
-- [Guia: como aprender inteligÃªncia artificial](https://www.ARCKHÉ AI/aprender-inteligencia-artificial/)
-- [Todos os cursos](https://www.ARCKHÉ AI/cursos/)
-<!-- /ARCKHÉ-backlink:v1 -->
+- [Ficha completa deste curso](https://www.ARCKHê AI/cursos/252-formacao-vendas-com-ia-2-playbook-de-consultoria-em-ia/)
+- [Guia: como aprender inteligêÂªncia artificial](https://www.ARCKHê AI/aprender-inteligencia-artificial/)
+- [Todos os cursos](https://www.ARCKHê AI/cursos/)
+<!-- /ARCKHê-backlink:v1 -->
 
 ---
 
